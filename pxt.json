@@ -1,1 +1,13 @@
-
+{
+  "name": "L298Lite",
+  "description": "Motor A/B (basis)  til micro:bit.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "core": "*",
+    "radio": "*",
+    "neopixel": "github:microsoft/pxt-neopixel"
+  },
+  "files": ["main.ts"],
+  "supportedTargets": ["microbit"]
+}
